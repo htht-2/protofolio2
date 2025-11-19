@@ -1,0 +1,539 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+  font-family: "Poppins", sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+}
+
+
+header{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #eeeeee;
+padding: 0.3rem 200px;
+position: fixed;
+width: 100%;
+z-index: 333;
+}
+
+.logo{
+
+text-decoration: none;
+text-transform: uppercase;
+font-size: 1.8em;
+color: #3a6cf1;
+font-weight: 800;
+}
+
+nav ul{
+
+display: flex;
+list-style: none;
+gap: 2rem;
+
+}
+
+
+
+nav ul li a{
+
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+color: #3a6cf1;
+transition: 0.3s;
+}
+
+nav ul li a:hover{
+color: #601cfc;
+
+}
+
+main{
+display: flex;
+padding: 250px 180px;
+width: 100%;
+min-height: 100vh;
+background-color: #000016;
+  background-image: none;
+}
+
+
+ .click-Me{
+background-color: #3a6cf1;
+width: 190px;
+height: 60px;
+border-radius: 15px;
+border: none;
+transition: 0.7s ease;
+ }
+
+.click-Me:hover{
+
+box-shadow: 1px 1px 333px cornsilk;
+
+backdrop-filter: blur(11px);
+
+
+transform: scale(1.1);
+
+}
+
+.click-Me  a{
+font-weight: 500;
+
+color: #eeeeee;
+
+text-decoration: none;
+
+ }
+
+ main .aboutContent{
+color: #3a6cf1;
+font-size: 3.3em;
+font-weight: 800;
+text-transform: uppercase;
+
+ }
+
+main .inform{
+text-transform: capitalize;
+font-size: 2em;
+font-weight: 700;
+letter-spacing: 1.4px;
+}
+
+.mainContener{
+display: flex;
+flex-direction: column;
+
+margin: 2rem 100px;
+
+gap: 2rem;
+
+}
+
+main .eidt-img{
+width: 350px;
+height: 350px;
+
+}
+main .eidt-img img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 50%;
+border: 4px solid #3a6cf1;
+box-shadow: 0px 0px 20px #3a6cf1;
+}
+
+
+main .aboutme{
+
+font-weight: 500;
+
+font-size: 1.4rem;
+}
+
+main .aboutme,.inform{ 
+
+color: #eeeeee;
+
+
+}
+
+.navigtion-main{
+
+
+display: flex;
+
+
+}
+
+.navigtion-main ul{
+
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+gap: 3rem;
+
+}
+
+.navigtion-main ul li a{
+
+box-shadow: 14px 14px 30px white outset;
+
+
+
+}
+
+.About-servies{
+padding: 250px 180px;
+width: 100%;
+
+z-index: -1;
+
+}
+
+.readS{
+
+display: flex;
+justify-content: center;
+color: #3a6cf1;
+font-size: 3.3em;
+font-weight: 800;
+margin-bottom: 60px;
+
+}
+
+
+.card1,.card2,.card3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+z-index: 222;
+background-color: #ffffff;
+width: 21.22em;
+padding: 40px 20px;
+z-index: 222;
+box-shadow: 0px 5px 25px rgb(2, 2, 2);
+padding: 20px 0px;
+border-radius: 5px;
+transition: 0.3s ease;
+flex-wrap: wrap;
+
+} 
+
+
+.About-servies  .fa-solid{
+font-size: 4em;
+color: #3a6cf1;
+
+
+}
+
+
+.boxServies{
+
+display: flex;
+justify-content: center;
+gap: 1.9rem;
+z-index: -1;
+flex-wrap: wrap;
+
+}
+
+.About-title{
+
+text-align: center;
+color: #3a6cf1;
+font-weight: 500;
+
+font-size: 1.4rem;
+margin: 1rem 0;
+
+}
+
+.About-read{
+text-align: center;
+color: black;
+font-weight: 500;
+padding: 0.5rem 1rem;
+font-size: 1.1rem;
+
+
+}
+
+.hovered:hover{
+transform: scale(1.1);
+}
+
+
+
+.About-project{
+
+padding: 250px 180px;
+width: 100%;
+background-color: #000016;
+
+
+
+}
+
+.pro{
+
+transform: translateY(-175px);
+
+}
+
+
+.About-project   .Projects{
+
+justify-content: center;
+
+}
+
+.About-project .boxServies{
+
+
+margin-top: -170px;
+
+}
+
+
+.About-project .Project{
+
+display: flex;
+flex-flow: wrap row;
+justify-content: flex-start;
+object-fit: cover;
+position: relative;
+}
+
+.About-project .Project img{
+
+width: 100%;
+
+margin: -19px 0;
+
+border-radius: 11px 11px 1px 1px;
+margin-bottom: 5px;
+transition: 0.3s;
+}
+
+.About-project .Project img:hover{
+opacity: 0.8;
+}
+
+.About-project  .card1{
+
+width: 450px;
+border: 3px solid rgba(128, 128, 128, 0.322);
+border-radius: 15px;
+
+}
+
+ .About-project  .main-card{
+
+margin: 0 10px;
+font-size: 1.1rem;
+font-weight: 500;
+
+
+ }
+
+.About-project  .footer-card{
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+
+margin-top: 11px;
+gap: 13rem;
+
+}
+
+.About-project  .About-read{
+
+margin-left: -10px;
+font-weight: 900;
+
+font-size: 1.1rem;
+text-transform: uppercase;
+}
+
+.About-project   .detalis{
+
+color: #3a6cf1;
+font-weight: 500;
+text-transform: uppercase;
+
+font-size: 1.0rem;
+transition: 0.3s;
+}
+
+.About-project   .detalis:hover{
+color: #601cfc;
+}
+
+
+.About-Contact{
+margin: 6rem 0;
+
+
+
+}
+
+.see-more{
+  display: block;
+margin: 35px auto 0 auto;
+ 
+}
+
+
+.linkme{
+display: flex;
+gap: 15px;
+
+}
+
+.Cv{
+background-color: white;
+
+}
+
+.Cv a{
+  color: #3a6cf1;
+}
+
+.About-Contact   .fa-solid{ 
+
+font-size: 4em;
+color: #3a6cf1;
+}
+
+
+.About-Contact  .new{
+
+font-weight: 800;
+
+font-size: 1.2rem;
+
+}
+
+.hovered a{
+
+text-decoration: none;
+color: black;
+
+}
+
+
+
+.footer{
+background-color: #000016;
+display: flex;
+justify-content: space-between;
+padding: 20px 10px;
+
+}
+
+
+.footer .footer-nav img{
+height: 20px;
+  width: 20px;
+
+
+}
+
+.footer  .footer-text{
+font-weight: 800;
+
+font-size: 24px;
+
+color: #ffffff;
+}
+
+
+
+.footer  .footer-text a{
+
+font-weight: 800;
+
+text-decoration: none;
+font-size: 24px;
+color: #3a6cf1;
+
+}
+
+
+@media (max-width:1023px) {
+
+header{
+
+padding: 0.3rem 0px;
+
+
+}
+
+header  .navigtion ul{
+
+  margin-right: 10px;
+
+}
+
+
+header  .navigtion a{
+
+font-size: 15.5px;
+
+
+}
+
+main{
+background-color: #000016;
+  background-image: none;
+padding: 200px 5px;
+flex-direction: column;
+
+
+}
+main .eidt-img{
+width: 200px;
+height: 200px;
+}
+
+.mainContener{
+margin: 30px 25px;
+
+}
+
+.navigation ul{
+  margin-left: 15px;
+gap: 3px;
+}
+.logo{
+  margin-right: 3px;
+}
+
+
+
+.navigtion ul li a{
+font-size: 12px;
+}
+
+.About-servies{
+padding: 200px 15px;
+
+
+
+
+}
+
+
+.About-servies .boxServies{
+flex-flow: column wrap;
+justify-content: end;
+align-items: center;
+}
+
+
+.footer{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+}
